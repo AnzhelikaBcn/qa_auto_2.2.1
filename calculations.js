@@ -1,27 +1,27 @@
 
 // Функция increaseBalance принимает два аргумента и увеличивает значение x на значение y, возвращая результат.
 function increaseBalance(x, y) {
-  x = x + y;
+  x += y;
   return x;
 }
 
 // Функция decreaseBalance принимает один аргумент x, но внутри функции используется y, который не был объявлен.
 // Исправим это и вернем результат вычитания.
 function decreaseBalance(x, y) {
-x = x - y;
+x -= y;
 return x;
 }
 
 // Функция divideBalanceByAccounts принимает два аргумента и делит x на y, возвращая результат.
 // Строка console.log("x"); находится после return и не будет выполнена, так как код ниже return не выполняется.
 function divideBalanceByAccounts(x, y) {
-  x = x / y;
+  x /= y;
   return x;
 }
 
 // Функция getRestAfterDivision принимает два аргумента и возвращает остаток от деления x на y.
 function getRestAfterDivision(x, y) {
-  x = x % y;
+  x %= y;
   return x;
 }
 
