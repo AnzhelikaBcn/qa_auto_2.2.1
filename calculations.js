@@ -30,3 +30,19 @@ console.log(increaseBalance(3000, 700));
 console.log(decreaseBalance(3000, 700));
 console.log(divideBalanceByAccounts(3000, 2));
 console.log(getRestAfterDivision(7000, 3));
+
+// Функция с инкрементом
+function incrementBalance(x) {
+  x++;
+  return x;
+}
+
+// Функция с декрементом
+function decrementBalance(x) {
+  x--;
+  return x;
+}
+
+// Вызываем функции и выводим результаты
+console.log(incrementBalance(3000)); // Увеличиваем на 1
+console.log(decrementBalance(3000)); // Уменьшаем на 1
